@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.headerimg{
+  width:fit-content!important;
+  margin:auto;
+  padding: 4em;
+  
+}
+Navigator .a{
+ 
+  color: black;
+}
+html{
+  padding: 0!important;
+
+}
+.mdl-grid{
+  justify-content: center;
+
+}
+.mdl-layout-title{
+  font-family: 'Fugaz One', cursive !important;
+  text-transform: uppercase;
+  cursor: none;
+  font-size: 3em!important;
+}
+.navtitle{
+  font-size:3em !important;
+  line-height: normal!important;
+  padding-right:10vw;
+  display: inline-flex;
+}
+.navtitle a{
+  padding-left:10px;
+  height:100%;
+}
+.contentsection{
+  position: relative;
+  overflow: hidden;
+  height: max-content;
+}
+.contentsection h1{
+  /* padding-top: 5vh; */
+  font-family: 'Baloo', cursive;
+    font-size: 86px;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  letter-spacing: 22px;
+  border-bottom: none;
+  line-height: normal;
+  font-weight: 600;
+}
+h1:hover{
+ cursor: none;
+}
+.headersection{
+  height: 93vh;
+  position: relative;
+}
+.videobox {
+  position: relative;
+
+  width: 75vw;
+  height: 80vh;
+  margin: auto;
+}
+.videobox .mdl-cell {
+  position: relative;
+  /* width: 100%; */
+  margin: 0 !important;
+  height: 0;
+  padding-bottom: 27.25%;
+}
+.mdl-cell iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.footersection{
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  margin: auto;
+  position: relative;
+  padding: 20px 0;
+
+}
+.footersection i   {
+  font-size:13vh;
+  padding-left : 30px;
+  height: 100%;
+
+}
+.footersection a {
+  height: 100%;
+  display: inline-block;
+
+}
