@@ -31,7 +31,7 @@ html{
 
 }
 .mdl-layout-title{
-  font-family: 'Fugaz One', cursive !important;
+  font-family: Fugaz One,cursive!important;
   text-transform: uppercase;
   cursor: none;
   font-size: 3em!important;
