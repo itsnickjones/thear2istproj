@@ -54,7 +54,7 @@ html{
 }
 .contentsection h1{
   /* padding-top: 5vh; */
-  font-family: 'Baloo', cursive;
+  font-family: Fugaz One,cursive!important;
     font-size: 86px;
   text-transform: uppercase;
   color: black;
