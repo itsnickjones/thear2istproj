@@ -63,6 +63,7 @@ html{
   border-bottom: none;
   line-height: normal;
   font-weight: 600;
+      background: #ffe428;
 }
 h1:hover{
  cursor: none;
@@ -100,12 +101,13 @@ h1:hover{
   margin: auto;
   position: relative;
   padding: 20px 0;
-
+background-image: linear-gradient(#f5f5f505, #00dcff26);
 }
 .footersection i   {
-  font-size:13vh;
+  font-size:10vh;
   padding-left : 30px;
   height: 100%;
+  padding-right : 30px;
 
 }
 .footersection a {
