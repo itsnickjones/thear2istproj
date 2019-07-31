@@ -50,6 +50,7 @@ html{
   position: relative;
   overflow: hidden;
   height: max-content;
+  padding-top:10vh;
 }
 .contentsection h1{
   /* padding-top: 5vh; */
@@ -70,11 +71,12 @@ h1:hover{
   height: 93vh;
   position: relative;
 }
+
 .videobox {
   position: relative;
 
   width: 75vw;
-  height: 80vh;
+  height: 100%;
   margin: auto;
 }
 .videobox .mdl-cell {
