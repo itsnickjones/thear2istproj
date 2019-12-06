@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.headerimg{
+  width:fit-content!important;
+  margin:auto;
+  padding: 4em;
+  
+}
+Navigator .a{
+ 
+  color: black;
+}
+html{
+  padding: 0!important;
+
+}
+.mdl-grid{
+  justify-content: center;
+  padding:none; 
+}
+.mdl-layout-title{
+  font-family: 'Fugaz One', cursive !important;
+  text-transform: uppercase;
+  cursor: none;
+  font-size: 3em!important;
+}
+.navtitle{
+  font-size:3em !important;
+  line-height: normal!important;
+  padding-right:10vw;
+  width:100%;
+  display: inline-block;
+}
+.navtitle a{
+  padding-left:10px;
+  height:100%;
+}
+.contentsection{
+  position: relative;
+  overflow-y: scroll;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  
+  /*
+  Nope =(
+  margin-left: -25%;
+  margin-top: -25%;
+  */
+
+  /* 
+  Yep!
+  */
+  transform: translate(-50%, -50%);
+  
+  /*
+  Not even necessary really. 
+  e.g. Height could be left out!
+  */
+  width: 100vw;
+  height: 85vh;
+}
+.contentsection h1{
+  /* padding-top: 5vh; */
+  font-family: 'Baloo', cursive;
+    font-size: 86px;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  letter-spacing: 22px;
+  border-bottom: none;
+  line-height: normal;
+  font-weight: 600;
+}
+h1:hover{
+ cursor: none;
+}
+.headersection{
+  height: 89.5vh;
+  position: relative;
+}
+.videobox {
+  position: relative;
+
+  height: 100%;
+  margin: auto;
+}
+.videobox .mdl-cell {
+  position: relative;
+  /* width: 100%; */
+  margin: 0 !important;
+  padding-bottom: 34.25%;
+}
+.mdl-cell iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.footersection{
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  margin: auto;
+  position: relative;
+  padding: 20px 0;
+
+}
+.footersection i   {
+  font-size:13vh;
+  padding-left : 30px;
+  height: 100%;
+
+}
+.footersection a {
+  height: 100%;
+  display: inline-block;
+
+}
+.navtitle p{
+  position: fixed;
+  display: inline-block;
+  z-index: 99;
+}
+.glitchy{
+  background-repeat: no-repeat!important;
+  background-position: center center!important;
+  background-attachment: fixed;
+  background-size: 100% 82vh!important;
+}
+.headersection img {
+  height: 30vh;
+  z-index: 3;
+  width: auto;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+
+}
+
+.navtitle img{
+  padding-left: 22px;
+  left: 50%;
+  letter-spacing: 0;
+  margin-top: -7px;
+  height: 10vh;
+  display: inline-block;
+  text-align: center;
+  mix-blend-mode: multiply;
+}
+.musicsection{
+  width: 100%;
+  height:82vh;
+  overflow-y:scroll!important;
+}
+.musicsection .mdl-grid{
+  width:80vw;
+}
+ /* .videobox{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+} */
+/* .videobox .mdl-cell{
+
+  min-width: 100%; 
+  min-height: 100%; 
+
+  width: auto;
+  height: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+} */
+.musicsection .videobox > iframe,a{
+  position: relative;
+  display: inline-block;
+}
+.musicsection .videobox .mdl-cell> a{
+
+  position: absolute!important;
+  display: inline-block;
+  bottom:0;
+  right:30%;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
