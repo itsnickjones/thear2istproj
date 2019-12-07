@@ -21,10 +21,10 @@ class HeaderTitles extends Component {
               <Link to="/social"><span data-title="SOCIAL">Social</span></Link>
             </p>
             <p  style={{bottom:0, left: 0,paddingLeft:7}}> 
-                  <Link to="/video" href="#content"><span data-title="VIDEO">video</span></Link>
+                  <Link to="/video" href="#content"><span  className ="bottoms" data-title="VIDEO">video</span></Link>
             </p>
             <p  style={{bottom:0, right: 0,paddingRight:36}}> 
-                  <Link to="/music"><span data-title="MUSIC">music</span></Link>
+                  <Link to="/music"><span  className ="bottoms" data-title="MUSIC">music</span></Link>
             </p>
 
              
