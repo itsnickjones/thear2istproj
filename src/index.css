@@ -89,7 +89,7 @@ h1:hover{
  cursor: none;
 }
 .headersection{
-  height: 89.5vh;
+  height: 81.5vh;
   position: relative;
 }
 .videobox {
@@ -190,6 +190,8 @@ h1:hover{
 .musicsection .mdl-grid{
   width:80vw;
 }
+p{    
+  margin-bottom: 0!important;}
  /* .videobox{
   position: absolute;
   top: 0;
