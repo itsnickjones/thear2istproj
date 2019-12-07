@@ -37,6 +37,9 @@ html{
   cursor: none;
   font-size: 3em!important;
 }
+.mdl-layout__inner-container{
+  overflow-y:hidden!important;
+}
 .navtitle{
   font-size:3em !important;
   line-height: normal!important;
