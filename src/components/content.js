@@ -5,7 +5,7 @@ class ContentSection extends Component {
     state = {  }
     render() { 
         return (  
-        <div id = "content" className="contentsection" id="content" style={{backgroundImage:"url('./imgs/videoback.jpg')",backgroundSize:"20%"}}> 
+        <div id = "content" className="contentsection" id="content" style={{backgroundImage:"url('./imgs/videoback.jpg')",backgroundSize:"contain"}}> 
                     {/* <div className="videobox"> */}
                     {/* <p> */}
                   

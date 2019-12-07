@@ -5,7 +5,7 @@ class Music extends Component {
     state = {  }
     render() { 
         return (  
-        <div className="musicsection"  style={{display:"inline-block",overflow:"hidden",backgroundImage:"url('./imgs/socialback.jpg')" }}>
+        <div className="musicsection"  style={{display:"inline-block",overflow:"hidden",backgroundImage:"url('./imgs/faded.jpg')" }}>
             {/* <div>
                    <iframe src="https://open.spotify.com/embed/track/0T9cHQD6adBnzMt1pZNRUH" 
             width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">

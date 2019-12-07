@@ -1,7 +1,12 @@
-$color: #e84b82;
+$color:
+#6d0396ba
+//  #e84b82
+ ;
+
 $transition-time: .5s;
 p a {
-  color: #0798a9;
+font-weight: 750;
+  color: #4d1d80ad;
   font-family: 'Khand', sans-serif;
   text-transform: uppercase;
   font-size:3em !important;
@@ -17,7 +22,9 @@ p a {
     -ms-perspective-origin: 50% 50%;
     perspective-origin: 50% 50%;
     &:hover span {
-      background: #e84b82;
+      background: 
+      // #e84b82
+#7a07a794;
       -webkit-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
       -ms-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
       transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
@@ -41,13 +48,18 @@ p a {
       transform-style: preserve-3d;
       &:after {
         content: attr(data-title);
+        border: thin solid #723f86;
+
         display: block;
         position: absolute;
         left: 0;
         top: 0;
-        padding: 0 3px;
+        // padding: 0 3px;
         color: #fff;
-        background: #e84b82;
+        background:
+        #723f86 
+        // #e84b82
+        ;
         -webkit-transform-origin: 50% 0%;
         -ms-transform-origin: 50% 0%;
         transform-origin: 50% 0%;

@@ -11,7 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.mdl-layout{  background: rgb(220, 220, 220)!important;
+}
 .headerimg{
   width:fit-content!important;
   margin:auto;
@@ -52,7 +53,7 @@ html{
   overflow-y: scroll;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 44%;
   
   /*
   Nope =(
@@ -70,7 +71,7 @@ html{
   e.g. Height could be left out!
   */
   width: 100vw;
-  height: 85vh;
+  height: 80vh;
 }
 .contentsection h1{
   /* padding-top: 5vh; */
@@ -113,20 +114,34 @@ h1:hover{
 .footersection{
   justify-content: center;
   text-align: center;
-  height: auto;
+  height: 77vh;
+  width: 100%;
   margin: auto;
   position: relative;
   padding: 20px 0;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+.footersection  .contents{
+  position: absolute;
+  top: 28%;
 
+  width: 100%;
 }
 .footersection i   {
   font-size:13vh;
-  padding-left : 30px;
+ 
+  background: #ffffff17;
+  border-radius: 27px;
   height: 100%;
 
 }
 .footersection a {
-  height: 100%;
+  padding-left : 50px;
+  padding-bottom : 30px;
+  /* height: 100%; */
   display: inline-block;
 
 }
@@ -166,6 +181,8 @@ h1:hover{
   mix-blend-mode: multiply;
 }
 .musicsection{
+  background-position: center center;
+    background-repeat: repeat-x;
   width: 100%;
   height:82vh;
   overflow-y:scroll!important;
@@ -222,4 +239,21 @@ h1:hover{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+.fa-youtube{
+  color: rgb(255, 0, 0)!important;
+
+}
+.fa-instagram{
+color:  rgb(17, 36, 203)
+}
+.fa-soundcloud{
+  color:rgb(255, 123, 0)!important;
+}
+.fa-spotify{
+  color: rgb(12, 137, 0);
+  
+}
+.fa-apple{
+  color:rgb(255, 255, 255);
 }
